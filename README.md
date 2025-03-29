@@ -1,3 +1,13 @@
+Fork of the official Livox ROS 2 driver (https://github.com/Livox-SDK/livox_ros_driver2) modified for ROS 2 Jazzy. Changes include:
+- Restructured for pure ROS 2 compatibility (removed ROS 1 files)
+- Updated build system for modern CMake practices
+- Configured for MID360 LiDAR
+- Fixed dependency handling and include paths
+
+
+
+
+
 # Livox ROS Driver 2
 
 Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended).
